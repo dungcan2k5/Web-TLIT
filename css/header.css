@@ -13,6 +13,10 @@ html {
     background-color: #ffd400;
 }
 
+#nav {
+    display: inline-block;
+}
+
 #nav, .subNav {
     list-style-type: none;
 }
@@ -73,15 +77,33 @@ html {
     font-weight: 550;
 }
 
-.input-field {
-    border-radius: 12px;
-    line-height: 20px;
+#header .searchBar {
+    float: right;
+    line-height: 48px;
+    margin-right: 10px;
 }
 
-.search-icon {
+#header .searchBar .input-field {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    line-height: 22px;
+    width: 140px;
+    padding: 0 0 0 20px;
+    font-size: 12px;
+    font-style: italic;
+    -webkit-transition: width 0.4s;
+    transition: width 0.4s;
+}
+
+#header .searchBar .input-field:focus {
+    width: 200px;
+    font-style: normal;
+  }
+
+#header .search-icon {
     position: absolute;
-    font-size: 14px;
-    width: 100%;
-    padding: 5px;
-    min-width: 40px;
+    line-height: 48px;
+    width: 14px;
+    padding: 1px 0 5px 5px;
 }
