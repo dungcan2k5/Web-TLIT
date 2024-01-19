@@ -21,8 +21,16 @@ html {
     list-style-type: none;
 }
 
+#nav > li:first-child {
+    border-left: none;
+}
+
 #nav > li {
     display: inline-block;
+    border: 1.5px solid #ffc900;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
 }
 
 #nav li {
@@ -41,13 +49,13 @@ html {
     display: block;
 }
 
-#nav li:hover .subNav {
-    display: block;
-}
-
 #nav > li:hover > a {
     color: #000;
     background-color: #ffbc06;
+}
+
+#nav li:hover .subNav {
+    display: block;
 }
 
 #nav .subNav {
@@ -67,8 +75,12 @@ html {
     line-height: 40px;
 }
 
+#nav .hot-icon,
+#nav .camera-icon,
+#nav .ticket-icon,
 #nav .nav-arrow-down {
     font-size: 14px;
+    font-weight: bold;
 }
 
 #nav .subNav li:hover {
@@ -83,6 +95,13 @@ html {
     margin-right: 10px;
 }
 
+#header .search-icon {
+    position: absolute;
+    line-height: 48px;
+    width: 14px;
+    padding: 1px 0 5px 5px;
+}
+
 #header .searchBar .input-field {
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -92,18 +111,11 @@ html {
     padding: 0 0 0 20px;
     font-size: 12px;
     font-style: italic;
-    -webkit-transition: width 0.4s;
-    transition: width 0.4s;
+    /* -webkit-transition: width .5s ease-in-out; */
+    transition: width .5s ease-in-out;
 }
 
 #header .searchBar .input-field:focus {
     width: 200px;
     font-style: normal;
   }
-
-#header .search-icon {
-    position: absolute;
-    line-height: 48px;
-    width: 14px;
-    padding: 1px 0 5px 5px;
-}
