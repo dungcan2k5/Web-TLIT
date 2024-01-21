@@ -17,15 +17,16 @@ html {
     display: inline-block;
 }
 
-#nav, .subNav {
+#nav,
+.subNav {
     list-style-type: none;
 }
 
-#nav > li:first-child {
+#nav>li:first-child {
     border-left: none;
 }
 
-#nav > li {
+#nav>li {
     display: inline-block;
     border: 1.5px solid #ffc900;
     border-bottom: none;
@@ -37,7 +38,7 @@ html {
     position: relative;
 }
 
-#nav > li > a{
+#nav>li>a {
     color: #000;
     text-transform: uppercase;
 }
@@ -49,7 +50,7 @@ html {
     display: block;
 }
 
-#nav > li:hover > a {
+#nav>li:hover>a {
     color: #000;
     background-color: #ffbc06;
 }
@@ -118,4 +119,4 @@ html {
 #header .searchBar .input-field:focus {
     width: 200px;
     font-style: normal;
-  }
+}
