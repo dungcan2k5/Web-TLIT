@@ -6,6 +6,7 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 #header {
@@ -96,7 +97,7 @@ html {
     margin-right: 10px;
 }
 
-#header .search-icon {
+#header .searchBar .search-icon {
     position: absolute;
     line-height: 48px;
     width: 14px;

@@ -1,0 +1,103 @@
+.col {
+    float: left;
+    padding: 0 8px;
+
+}
+
+.col-six {
+    width: 16.66666%;
+}
+
+h2 {
+    padding: 40px;
+    text-align: center;
+    color: #fff
+}
+
+.content-current,
+.content-upcoming {
+    padding-bottom: 80px;
+    background-color: #000;
+}
+
+.content-current::after,
+.content-upcoming::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.movies-img {
+    width: 100%;
+    display: block;
+}
+
+#poster {
+    position: relative;
+}
+
+#poster .btn-play-trailer {
+    position: absolute;
+    display: none;
+}
+
+#poster:hover {
+    opacity: 0.6;
+}
+
+#poster:hover .btn-play-trailer {
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    border: 8px solid #fff;
+    border-radius: 90px;
+}
+
+.movies-body {
+    padding: 16px;
+    font-size: 15px;
+    background-color: #000;
+
+}
+
+.movies-heading {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff
+}
+
+.movies-time {
+    margin-top: 15px;
+    color: #d3d2d2;
+
+}
+
+.movies-desc,
+.movies-tl {
+    margin-top: 15px;
+    line-height: 1.2;
+    color: #fff
+}
+
+.btn {
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #ffc900;
+    background-color: beige;
+}
