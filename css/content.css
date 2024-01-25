@@ -14,8 +14,17 @@ h2 {
     color: #fff
 }
 
+#content .nd {
+    margin: 0 25px 25px;
+    font-size: 20px;
+    text-align: justify;/*căn đều văn bản thành khối hình chữ nhật*/
+    line-height: 1.4;
+    color:#fff;
+}
+
 .content-current,
-.content-upcoming {
+.content-upcoming, 
+.content-intro {
     padding-bottom: 80px;
     background-color: #000;
 }
@@ -30,6 +39,7 @@ h2 {
 
 .movies-img {
     width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -85,6 +95,11 @@ h2 {
     color: #fff
 }
 
+.movies-img {
+    width: 100%;
+    height: 150%;
+}
+
 .btn {
     color: #000;
     background-color: #fff;
@@ -100,4 +115,26 @@ h2 {
     cursor: pointer;
     color: #ffc900;
     background-color: beige;
+}
+
+
+@media (min-width: 1023px) {
+    .movies-img {
+        height: 300px;
+    }
+    
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .movies-img {
+        height: 197.33333px;
+    }
+    
+}
+
+@media (max-width: 740) {
+    .movies-img {
+        height: 98.66666px;
+    }
+    
 }
