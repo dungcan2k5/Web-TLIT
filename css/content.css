@@ -7,12 +7,9 @@
 h2 {
     padding: 40px;
     text-align: center;
-    color: #fff
+    color: #fff !important;
 }
 
-h4 {
-    font-weight: 500;
-}
 
 #content .nd {
     margin: 0 25px 25px;
@@ -87,7 +84,7 @@ h4 {
 .movies-tl {
     margin-top: 15px;
     line-height: 1.2;
-    color: #fff
+    color: #fff;
 }
 
 .movies-img {
