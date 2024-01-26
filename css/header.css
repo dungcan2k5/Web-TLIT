@@ -12,6 +12,10 @@ html {
 #header {
     height: 48px;
     background-color: #ffd400;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 #nav {
