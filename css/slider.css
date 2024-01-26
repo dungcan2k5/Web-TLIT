@@ -1,6 +1,7 @@
 #slider {
     margin-top: 48px;
     padding: 2rem;
+    background-color: #000;
 }
 
 .slider-wrapper {
@@ -54,8 +55,4 @@
 .slider-nav a:hover {
     opacity: 1;
     background-color: yellow;
-}
-
-#slider {
-    background-color: black;
 }
