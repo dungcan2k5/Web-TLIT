@@ -1,17 +1,24 @@
+* {
+    /*Emmet*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .col {
     float: left;
     padding: 0 16px;
 
 }
 
-.col-six {
-    width: 33.33333%;
-}
-
 h2 {
     padding: 40px;
     text-align: center;
     color: #fff
+}
+
+h4 {
+    font-weight: 500;
 }
 
 #content .nd {
@@ -114,21 +121,33 @@ h2 {
 
 @media (min-width: 1023px) {
     .movies-img {
-        height: 564px;
+        height: 300px;
+    }
+
+    .col-six {
+        width: 16.66666%;
     }
     
 }
 
 @media (min-width: 740px) and (max-width: 1023px) {
     .movies-img {
-        height: 376px;
+        height: 198.77px;
+    }
+
+    .col-six {
+        width: 33.33333%;
     }
     
 }
 
 @media (max-width: 740) {
     .movies-img {
-        height: 188px;
+        height: 100px;
+    }
+
+    .col-six {
+        width: 50%;
     }
     
 }
