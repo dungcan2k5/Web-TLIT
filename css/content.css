@@ -1,11 +1,11 @@
 .col {
     float: left;
-    padding: 0 8px;
+    padding: 0 16px;
 
 }
 
 .col-six {
-    width: 16.66666%;
+    width: 33.33333%;
 }
 
 h2 {
@@ -35,12 +35,6 @@ h2 {
     display: block;
     clear: both;
 
-}
-
-.movies-img {
-    width: 100%;
-    height: auto;
-    display: block;
 }
 
 #poster {
@@ -120,21 +114,21 @@ h2 {
 
 @media (min-width: 1023px) {
     .movies-img {
-        height: 300px;
+        height: 564px;
     }
     
 }
 
 @media (min-width: 740px) and (max-width: 1023px) {
     .movies-img {
-        height: 197.33333px;
+        height: 376px;
     }
     
 }
 
 @media (max-width: 740) {
     .movies-img {
-        height: 98.66666px;
+        height: 188px;
     }
     
 }
